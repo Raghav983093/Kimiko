@@ -1,15 +1,16 @@
-# Welcome to Kimiko
+# Welcome to Onchainapp
+
 
 ## Inspiration
 
-## Why Kimiko
-Kimiko is an onchain verison of local marketplace where local artisans, small business owners, and individual can sell goods using cryptocurrencies thereby increasing access to a wider customer base globally.
+## Why Onchainapp
+Onchainapp is an onchain verison of local marketplace where local artisans, small business owners, and individual can sell goods using cryptocurrencies thereby increasing access to a wider customer base globally.
 
 ## Relevance
 Many African artisans lack access to global e-commerce platforms; this tool would empower them to sell their goods and receive payments in crypto.
 
 ## How We Built it
-Kimiko app was carved as user-centric hybrid focusing on onboarding millions of African by harnessing web3 potentials while abstracting away its complexities giving users a nice web2 feel. The project combines on-chain code (the Kimiko contracts), client code,IPFS (Interplantary File System), and a backend. The client sends requests to the backend (web3) to interact with the blockchain. We used the decentralized storage - IPFS client via Thirdweb sdk to store and retrieve images. For demo purposes and to manage time, we directly fetch data from the blockchain and relay it to the front end. This method may be slow but we plan to subscribe to a more intuitive service in the future.
+Onchainapp app was carved as user-centric hybrid focusing on onboarding millions of African by harnessing web3 potentials while abstracting away its complexities giving users a nice web2 feel. The project combines on-chain code (the Kimiko contracts), client code,IPFS (Interplantary File System), and a backend. The client sends requests to the backend (web3) to interact with the blockchain. We used the decentralized storage - IPFS client via Thirdweb sdk to store and retrieve images. For demo purposes and to manage time, we directly fetch data from the blockchain and relay it to the front end. This method may be slow but we plan to subscribe to a more intuitive service in the future.
 
 Our smart contracts are deployed on BaseSepolia with the following contract addresses:
 
@@ -35,45 +36,43 @@ Our smart contracts are deployed on BaseSepolia with the following contract addr
 
 We leverage [onchainkit](https://onchainkit.xyz/) for a seemless developer and user experinces.
 
-Contracts: Written in Solidity, can be found here: https://github.com/bobeu/kimiko/contracts-ts
+Contracts: Written in Solidity, can be found here: [https://github.com/bobeu/kimiko/contracts-ts](https://github.com/Raghav983093/Onchainapp)
 
-Frontend: Written in Typescript with React, can be found here: https://github.com/bobeu/kimiko/onchainapp
+Frontend: Written in Typescript with React, can be found here: [https://github.com/bobeu/kimiko/onchainapp](https://github.com/Raghav983093/Onchainapp)
 
 Web3 Backend: Written using blend of OnchainKit, Wagmi and EthersJs, can be found here: https://github.com/bobeu/kimiko/onchainapp/apiComponents
 
 
-## [Demo website](https://kimiko-nine.vercel.app/)
-
 
 # To interact, clone the repo
 
-- Git clone https://github.com/bobeu/kimiko.git
+Git clone 
+   ``` https://github.com/Raghav983093/Onchainapp ```
 
 ## For smart contracts
 
-- cd kimiko/contracts_ts
-- yarn install
+       cd kimiko/contracts_ts  
+       yarn install  
 
-Compile
-- yarn compile
+## Compile
+      yarn compile
 
-Testing
-- yarn test
+## Testing
+     yarn test
 
-Deploy
-- yarn deploy testnet
-- yarn deploy mainnet
+## Deploy
+    yarn deploy testnet
+    yarn deploy mainnet
 
 ## Frontend
+    cd kimiko/onchainapp
+    yarn install
 
-- cd kimiko/onchainapp
-- yarn install
+## Run dev server
+    yarn run dev
 
-Run dev server
-- yarn run dev
+## Build
+     yarn build
 
-Build
-- yarn build
-
-Live
-- yarn start
+## Live 
+    yarn start
